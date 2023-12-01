@@ -9,5 +9,5 @@ package design.patterns.command;
  * @author Marcos
  */
 public interface Command {
-    void execute();
+    public void execute();
 }
