@@ -17,6 +17,7 @@ public class Client {
 
         remoteControl.setCommand(lightOnCommand);
 
-        remoteControl.pressButton();
+        remoteControl.pressButtonOn();
+        remoteControl.pressButtonOff();
     }
 }

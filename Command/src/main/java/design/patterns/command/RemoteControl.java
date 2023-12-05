@@ -15,7 +15,11 @@ public class RemoteControl {
         this.command = command;
     }
 
-    public void pressButton() {
+    public void pressButtonOn() {
         command.execute();
+    }
+    
+    public void pressButtonOff() {
+        command.undo();
     }
 }
