@@ -12,6 +12,10 @@ class LightOnCommand implements Command {
     private Light light;
 
     public LightOnCommand(Light light) {
+        setLight(light);
+    }
+
+    public void setLight(Light light) {
         this.light = light;
     }
 
